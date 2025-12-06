@@ -24,7 +24,7 @@ nav{
     border: 10px solid gray;
 }
 .terminal_top {
-    line-height: 0;
+    line-height: 0.06;
     margin-bottom: 0;
     color: rgb(6, 228, 6);
     font-size: 23px;
