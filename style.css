@@ -154,7 +154,7 @@ header{
   .site-block {
     padding: 10px;
   }
-    .mobile-block {
+  .mobile-block {
     position: relative;
     display: flex;
     align-items: center;
