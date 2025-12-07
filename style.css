@@ -155,6 +155,7 @@ header{
     padding: 10px;
   }
   .mobile-block {
+    background: blueviolet;
     position: relative;
     display: flex;
     align-items: center;
