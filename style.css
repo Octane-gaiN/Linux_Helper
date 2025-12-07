@@ -19,8 +19,8 @@ nav{
 
 #terminal{
     background-color: black;
-    width: 1260px;
-    height: 350px;
+    width: 90vw;
+    height: 25vh;
     border-radius: 10px;
     border: 10px solid gray;
 }
