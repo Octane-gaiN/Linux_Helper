@@ -10,29 +10,32 @@
         <header>
             <nav>
                 <a class="nav-item" href="#main">Главная</a>
-                <a class="nav-item" href="#about">История создания</a>
+                <a class="nav-item" href="#about">Как открыть Терминал</a>
                 <a class="nav-item" href="#achivments">Основные команды</a>
                 <a class="nav-item" href="#contacts">Контакты</a>
             </nav>
             <div class="mobile-block">
-                <h1>Сайт GNU Linux Terminal</h1>
+                <h1>Сайт Linux Terminal</h1>
                 <img class="menu-icon" src="images/menu.svg" alt="Menu Icon" />
             </div>
         </header>
         <main>
-            <div id="main" class="site-block">
-                <h1 class="red_header">Сайт-портфолио</h1>
-                <p>Описание</p>
-                <img src="" alt="Моя фотография" />
-            </div>
+            <h1 class="red_header">Как открыть Терминал</h1>
+            <div id="main" style="position: relative">
+                <h2 class="Main_ter">В большинстве систем Linux для его запуска используется одно и то же сочетание клавиш по умолчанию: Ctrl-Alt-T.</h2>
+                </div>
+                <div>
+                    <img class="photo" src="https://www.wikihow.com/images_en/b/b6/Install-and-Uninstall-Applications-from-Terminal-in-Ubuntu-Step-1.jpg" alt="ctrl+alt+t" />
+                </div>
             <div id="about">
-                <h2 id="main_category">Обо мне</h2>
-                <img src="" alt="Достижение" />
-                <p>Первый абзац про меня</p>
+                <h2 id="main_category">Основные команды</h2>
+                <p>Cd 'changeddirectory` - Команда, которая может изменить рабочий каталог. Попробуйте ввести следующее:</p>
                 <p>Второй абзац про меня</p>
                 <pre id="terminal" class="terminal_top">
-                    <p class="terminal_top">┌──(<span>guest@guest</span>)-[<span style="color: white;">~</span>]</p>
-                    <p class="terminal_top">└─<span>$</span> <span style="color: turquoise;">ls</span> -la</p>
+                    <code class="Bash">
+                        <p class="terminal_top">┌──(<span>guest@guest</span>)-[<span style="color: white;">~</span>]</p>
+                        <p class="terminal_top">└─<span>$</span> <span style="color: turquoise;">ls</span> -la</p>
+                    </code>
                 </pre>
             </div>
             <div id="achivments">
@@ -63,9 +66,11 @@
             </div>
         </main>
         <footer>
-            <p>Все права защищены</p>
-            <a href="tel:+7-(584)-132-56-74" target="_blank">Телефон</a>
-            <a href="mailto:ghdag@mail.com" target="_blank">Почта</a>
+            <div class="footer-links">
+                <p>Все права защищены</p>
+                <a href="tel:+7-(584)-132-56-74" target="_blank">Телефон</a>
+                <a href="mailto:ghdag@mail.com" target="_blank">Почта</a>
+            </div>
         </footer>
     </body>
     <script src="index.js"></script>
