@@ -50,8 +50,8 @@ header {
 .photo{
   display: block;
   margin: auto;
-  width: 666px;
-  height: 500px;
+  width: 66vw;
+  height: 50vh;
   border-radius: 5%;
   object-fit: cover;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
@@ -79,6 +79,15 @@ header {
     width: 90vw;
     border-radius: 10px;
     border: 10px solid gray;
+
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    tab-size: 4;
+    -webkit-overflow-scrolling: touch;
+    border-radius: .375rem;
+    overflow: auto;
 }
 .terminal_top {
     line-height: 0.06;
