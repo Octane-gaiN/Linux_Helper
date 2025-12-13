@@ -4,7 +4,6 @@ html{
 }
 body{
     background-color: #121212;
-    margin: 0;
     color: white;
 }
 nav{
@@ -64,6 +63,7 @@ header {
 }
 
 #main {
+  margin: 10;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -77,7 +77,6 @@ header {
 #terminal{
     background-color: black;
     width: 90vw;
-    height: 25vh;
     border-radius: 10px;
     border: 10px solid gray;
 }
@@ -87,7 +86,7 @@ header {
     color: rgb(6, 228, 6);
     font-size: 23px;
 }
-p span{
+span{
     color: blue;
     font-size: 23px;
 }

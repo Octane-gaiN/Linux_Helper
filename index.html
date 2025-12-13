@@ -11,9 +11,8 @@
         <header>
             <nav>
                 <a class="nav-item" href="#main">Главная</a>
-                <a class="nav-item" href="#main">Как открыть Терминал</a>
                 <a class="nav-item" href="#about">Основные команды</a>
-                <a class="nav-item" href="#achivments">Контакты</a>
+                <a class="nav-item" href="#achivments">Работа с файлами</a>
                 <a class="nav-item" href="#contacts">Контакты</a>
             </nav>
             <div class="mobile-block">
@@ -22,27 +21,88 @@
             </div>
         </header>
         <main>
-            <h1 class="red_header">Как открыть Терминал</h1>
+            <h1 class="red_header">Главная</h1>
             <div id="main" style="position: relative">
                 <h2 class="Main_ter">В большинстве систем Linux для его запуска используется одно и то же сочетание клавиш по умолчанию: Ctrl-Alt-T.</h2>
                 </div>
                 <div>
                     <img class="photo" src="https://www.wikihow.com/images_en/b/b6/Install-and-Uninstall-Applications-from-Terminal-in-Ubuntu-Step-1.jpg" alt="ctrl+alt+t" />
                 </div>
+                <div id="main" style="position: relative ">
+                    <h2 class="Main_ter">Для того чтобы вставить содержимое в терминал используется одно и то же сочетание клавиш по умолчанию: Ctrl-Shift-V.</h2>
+                </div>
+                <div>
+                    <img class="photo" style="width: 1270px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfGeIxnHd1dcK07hISyTwF1KvT4RqetZyWlA&s" alt="ctrl+shift+v" />
+                </div>
             <div id="about">
                 <h2 id="main_category">Основные команды</h2>
-                <p>Cd 'changeddirectory` - Команда, которая может изменить рабочий каталог. Попробуйте ввести следующее:</p>
-                <p>Второй абзац про меня</p>00
-                <pre id="terminal" class="terminal_top">
+                <h3><span style="color: turquoise;">Cd</span> 'change directory` - Команда, которая может изменить рабочий каталог. Попробуйте ввести следующее:</h3>
+                <pre id="terminal" style="height: 14vh;" class="terminal_top">
+                    <code class="Bash">
+                        <p class="terminal_top">┌──(<span>guest@guest</span>)-[<span style="color: white;">~</span>]</p>
+                        <p class="terminal_top">└─<span>$</span> <span style="color: turquoise;">cd</span><span style="color: white;"> /</span></p>
+                        <p class="terminal_top">┌──(<span>guest@guest</span>)-[<span style="color: white;">/</span>]</p>
+                        <p class="terminal_top">└─<span>$</p>
+                    </code>
+                </pre>
+                <h3>Здесь мы поменяли директорию (папку), в которой мы находимся поменялось с user на корневую директорию.</h3>
+                <h3>Также диреторию, в которой мы находимся показывается в квадратных скобках.</h3>
+                <pre id="terminal" style="height: 14vh;" class="terminal_top">
+                    <code class="Bash">
+                        <p class="terminal_top">┌──(<span>guest@guest</span>)-[<span style="color: white;">/</span>]</p>
+                        <p class="terminal_top">└─<span>$</span> <span style="color: turquoise;">cd</span><span style="color: white;"> ./home</span></p>
+                        <p class="terminal_top">┌──(<span>guest@guest</span>)-[<span style="color: white;">/home</span>]</p>
+                        <p class="terminal_top">└─<span>$</p>
+                    </code>
+                </pre>
+                <h3>Мы можем использовать символ <span style="color: turquoise;">.</span> , для показания текущей директории, от которой мы идём.</h3>
+                <h3>Чтоб вернутся в домашную директорию нужно использовать символ <span style="color: turquoise;">~</span> .</h3>
+                <pre id="terminal" style="height: 14vh;" class="terminal_top">
+                    <code class="Bash">
+                        <p class="terminal_top">┌──(<span>guest@guest</span>)-[<span style="color: white;">/home</span>]</p>
+                        <p class="terminal_top">└─<span>$</span> <span style="color: turquoise;">cd</span><span style="color: white;"> ~</span></p>
+                        <p class="terminal_top">┌──(<span>guest@guest</span>)-[<span style="color: white;">~</span>]</p>
+                        <p class="terminal_top">└─<span>$</p>
+                    </code>
+                </pre>
+                <h3>Для просмотра содержимого директории мы используем <span style="color: turquoise;">ls</span> 'list' - выводит нам все элементы</h3>
+                <pre id="terminal" style="height: 17vh;" class="terminal_top">
+                    <code class="Bash">
+                        <p class="terminal_top">┌──(<span>guest@guest</span>)-[<span style="color: white;">~</span>]</p>
+                        <p class="terminal_top">└─<span>$</span> <span style="color: turquoise;">ls</span></p>
+                        <p><span>Видео    Изображения    'Рабочий стол'    Документы    Музыка</span></p>
+                        <p><span>Шаблоны    Загрузки    Общедоступные</span></p>
+                    </code>
+                </pre>
+                <h3>Нам вывело содержимое нашей домашней директории.</h3>
+                <h3>Для просмотра содержимого директории с скрытыми файлами и с правами доступа - мы используем <span style="color: turquoise;">ls</span><span style="color: rgb(6, 228, 6);"> -la</span> </h3>
+                <pre id="terminal" style="height: 27vh;" class="terminal_top">
                     <code class="Bash">
                         <p class="terminal_top">┌──(<span>guest@guest</span>)-[<span style="color: white;">~</span>]</p>
                         <p class="terminal_top">└─<span>$</span> <span style="color: turquoise;">ls</span> -la</p>
+                        <p><span style="color: white;">итого 268</span></p>
+                        <p><span style="color: white;">drwx------ 22 guest guest  4096 дек 13 21:10  .</span></p>
+                        <p><span style="color: white;">drwxr-xr-x  3 root   root    4096 июл 15 20:58  ..</span></p>
+                        <p><span style="color: white;">...</span></p>
+                    </code>
+                </pre>
+                <h3>Мы можем узнавать о дополнительных функциях команд при помощи данной команды + <span style="color: rgb(6, 228, 6);">--help</span></h3>
+                <pre id="terminal" style="height: 37vh;" class="terminal_top">
+                    <code class="Bash">
+                        <p class="terminal_top">┌──(<span>guest@guest</span>)-[<span style="color: white;">~</span>]</p>
+                        <p class="terminal_top">└─<span>$</span> <span style="color: turquoise;">ls</span> --help</p>
+                        <p><span style="color: white;">Использование: ls [ПАРАМЕТР]… [ФАЙЛ]…</span></p>
+                        <p><span style="color: white;">Выдаёт информацию о ФАЙЛАХ (по умолчанию о текущем каталоге).</span></p>
+                        <p><span style="color: white;">Сортирует в алфавитном порядке, если не задан ни --sort, ни один из параметров -cftuvSUX.</span></p>
+                        <p></p>
+                        <p><span style="color: white;">Аргументы, обязательные для длинных параметров, обязательны и для коротких.</span></p>
+                        <p><span style="color: white;">     -a, --all                  не скрывать файлы начинающиеся с ...</span></p>
                     </code>
                 </pre>
             </div>
             <div id="achivments">
-                <h2 class="red_header">Достижения</h2>
-                <h3>Список моих достижений</h3>
+                <h2 class="red_header">Работа с файлами</h2>
+                <h3>Для создания папок мы используем <span style="color: turquoise;">mkdir</span></h3>
                 <ul>
                     <li>
                         вргвррвоыо
