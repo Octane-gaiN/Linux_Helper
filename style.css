@@ -144,7 +144,9 @@ main div{
 }
 .red_header{
     margin-top: 120px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
   .mobile-block {
   display: none;
