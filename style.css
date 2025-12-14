@@ -19,7 +19,7 @@ header {
   height: 75px;
   position: fixed;
   top: 0;
-  background: rgb(132, 13, 143);
+  background: rgb(129, 20, 156);
   z-index: 1;
 }
 
@@ -50,7 +50,7 @@ header {
 .photo{
   display: block;
   margin: auto;
-  width: 66vw;
+  width: 65vw;
   height: 50vh;
   border-radius: 5%;
   object-fit: cover;
@@ -136,7 +136,7 @@ textarea {
 form input:focus,
 textarea:focus {
   outline: none;
-  border-color: rgb(132, 13, 143);
+  border-color: rgb(129, 20, 156);
 }
 textarea {
     outline: none;
@@ -257,7 +257,7 @@ main div{
   }
 
   .mobile-block {
-    background: blueviolet;
+    background: rgb(129, 20, 156);
     position: relative;
     display: flex;
     align-items: center;
