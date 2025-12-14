@@ -23,8 +23,11 @@
         <main>
             <h1 class="red_header">Главная</h1>
             <div id="main" style="position: relative">
-                <h2 class="Main_ter">В большинстве систем Linux для его запуска используется одно и то же сочетание клавиш по умолчанию: Ctrl-Alt-T.</h2>
-                </div>
+                <h2 class="Main_ter" style="margin-bottom: 50px;">Этот сайт поможет запомнить основные команды Linux, которые довольно часто используются в UNIX- подобных системах. Чаще всего Linux системы используют для серверов, ведь там нужна надёжность, а Linux системы известны благодаря своей стабильности, надежности, безопасности и гибкости, а также из-за открытого исходного кода и низких требований к ресурсам</h2>
+            </div>
+            <div>
+                <h2 class="Main_ter" style="margin-top: 50px;">В большинстве систем Linux для его запуска используется одно и то же сочетание клавиш по умолчанию: Ctrl-Alt-T.</h2>
+            </div>
                 <div>
                     <img class="photo" src="https://www.wikihow.com/images_en/b/b6/Install-and-Uninstall-Applications-from-Terminal-in-Ubuntu-Step-1.jpg" alt="ctrl+alt+t" />
                 </div>
@@ -47,6 +50,7 @@
                 </pre>
                 <h3>Здесь мы поменяли директорию (папку), в которой мы находимся поменялось с user на корневую директорию.</h3>
                 <h3>Также диреторию, в которой мы находимся показывается в квадратных скобках.</h3>
+                <h3>Мы можем использовать символ <span style="color: turquoise;">.</span> , для показания текущей директории, от которой мы идём.</h3>
                 <pre id="terminal" style="height: 14vh;" class="terminal_top">
                     <code class="Bash">
                         <p class="terminal_top">┌──(<span>guest@guest</span>)-[<span style="color: white;">/</span>]</p>
@@ -55,7 +59,15 @@
                         <p class="terminal_top">└─<span>$</p>
                     </code>
                 </pre>
-                <h3>Мы можем использовать символ <span style="color: turquoise;">.</span> , для показания текущей директории, от которой мы идём.</h3>
+                <h3>Мы можем использовать символ <span style="color: turquoise;">..</span> , для возвращения в предыдущую директорию, от которой мы пришли.</h3>
+                <pre id="terminal" style="height: 14vh;" class="terminal_top">
+                    <code class="Bash">
+                        <p class="terminal_top">┌──(<span>guest@guest</span>)-[<span style="color: white;">/home</span>]</p>
+                        <p class="terminal_top">└─<span>$</span> <span style="color: turquoise;">cd</span><span style="color: white;"> ..</span></p>
+                        <p class="terminal_top">┌──(<span>guest@guest</span>)-[<span style="color: white;">/</span>]</p>
+                        <p class="terminal_top">└─<span>$</p>
+                    </code>
+                </pre>
                 <h3>Чтоб вернутся в домашную директорию нужно использовать символ <span style="color: turquoise;">~</span> .</h3>
                 <pre id="terminal" style="height: 14vh;" class="terminal_top">
                     <code class="Bash">
@@ -112,6 +124,22 @@
                     </li>
                     <li>
                         <h3>Также для создания и редактирования файлов мы можем использовать <span style="color: turquoise;">nano</span></h3>
+                    </li>
+                </ul>
+                <h2 class="red_header">Немного интересного:</h2>
+                <ul>
+                    <li>
+                        <h3>Мы можем создать временную папку, которая удалится после выключения системы <span style="color: turquoise;">mktemp -d</span></h3>
+                    </li>
+                    <li>
+                        <h3>Мы мржем проверить есть ли у нас интернет с помощью команды <span style="color: turquoise;">ping 8.8.8.8</span></h3>
+                        <h3>Чтоб остановить любую команду в терминале надо использовать сочетание клавиш <span style="color: turquoise;">ctrl + c</span></h3>
+                    </li>
+                    <li>
+                        <h3>Мы можем зайти в браузер, просто прописав команду <span style="color: turquoise;">firefox</span></h3>
+                    </li>
+                    <li>
+                        <h3>Команда <span style="color: turquoise;">echo "текст"</span> позволяет вывести что-то в терминал</h3>
                     </li>
                 </ul>
             </div>
