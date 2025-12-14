@@ -76,9 +76,13 @@ header {
  main h3{
   margin: 10px;
  }
+#about h3{
+  text-align: center;
+  }
 #terminal{
+    margin-left: 15vw;
     background-color: black;
-    width: 90vw;
+    width: 65vw;
     border-radius: 10px;
     border: 10px solid gray;
 
@@ -107,6 +111,14 @@ form {
   flex-direction: column;
   gap: 20px;
 }
+
+  #achivments{
+    text-align: center;
+  }
+  #achivments li{
+  justify-content: center;
+  list-style-type: none;
+  }
 
 form input,
 textarea {
@@ -263,7 +275,6 @@ main div{
     margin: 10px;
     min-height: auto;
   }
-
   #about h1 {
     font-size: 28px;
     margin-bottom: 30px;
@@ -284,11 +295,15 @@ main div{
   #achivments {
     margin: 10px;
     min-height: auto;
+    text-align: center;
   }
 
   #achivments h1 {
     font-size: 28px;
     margin-bottom: 30px;
+  }
+  #achivments ul{
+    text-align: center;
   }
 
 
