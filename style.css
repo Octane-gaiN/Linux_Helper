@@ -161,7 +161,7 @@ main div{
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 50px;
+  width: 90vw;
 }
 
 .Bash{
@@ -174,9 +174,7 @@ main div{
   }
 
   #main {
-    /* flex-direction: column;
-    padding: 120px 20px 40px;
-    gap: 20px; */
+    flex-direction: column;
   }
 
   .main-text {
@@ -237,12 +235,6 @@ main div{
     gap: 20px;
   }
 
-  .about-avatar {
-    width: 180px;
-    height: 180px;
-    margin: 0 auto;
-  }
-
   .about-text {
     width: 100%;
   }
@@ -262,11 +254,6 @@ main div{
     margin-bottom: 30px;
   }
 
-  .achivments-container {
-    grid-template-columns: 1fr;
-    gap: 20px;
-    width: 100%;
-  }
 
   .achivment-card {
     padding: 20px;
@@ -287,9 +274,7 @@ main div{
   }
 
   #contact {
-    padding: 100px 20px 60px;
     min-height: auto;
-    gap: 30px;
   }
 
   #contact h1 {
