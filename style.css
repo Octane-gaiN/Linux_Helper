@@ -19,7 +19,7 @@ header {
   height: 75px;
   position: fixed;
   top: 0;
-  background: rgb(48, 71, 48);
+  background: rgb(132, 13, 143);
   z-index: 1;
 }
 
@@ -124,7 +124,7 @@ textarea {
 form input:focus,
 textarea:focus {
   outline: none;
-  border-color: rgb(48, 71, 48);
+  border-color: rgb(132, 13, 143);
 }
 textarea {
     outline: none;
