@@ -3,6 +3,7 @@ html{
     overflow-x: hidden;
 }
 body{
+    margin: 0;
     background-color: #121212;
     color: white;
 }
@@ -62,15 +63,17 @@ header {
 }
 
 #main {
-  margin: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .Main_ter{
-    margin-bottom: 15px;
+    margin: 10px;
 }
+ main h3{
+  margin: 10px;
+ }
 #terminal{
     background-color: black;
     width: 90vw;
@@ -146,7 +149,7 @@ button:hover{
     background: greenyellow;
 }
 main div{
-    width: 100vw;
+    width: 90vw;
 }
 .red_header{
     margin-top: 120px;
@@ -158,6 +161,7 @@ main div{
   display: none;
 }
 #contacts {
+  margin: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -191,7 +195,6 @@ main div{
     text-align: center;
     width: 100%;
     max-width: 100%;
-    padding: 0 10px;
     font-size: 14px;
   }
 
@@ -235,9 +238,6 @@ main div{
     gap: 20px;
   }
 
-  .about-text {
-    width: 100%;
-  }
 
   .about-paragraph {
     font-size: 14px;
@@ -271,22 +271,6 @@ main div{
 
   .achivment-card p {
     font-size: 14px;
-  }
-
-  #contact {
-    min-height: auto;
-  }
-
-  #contact h1 {
-    text-align: center;
-    font-size: 28px;
-    margin-bottom: 15px;
-  }
-
-  .contact-description {
-    font-size: 14px;
-    padding: 0 10px;
-    margin-bottom: 20px;
   }
 
   form {
